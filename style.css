@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f8fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #005792;
+}
+
+.current-weather, .forecast, .alerts {
+  margin-top: 30px;
+  padding: 15px;
+  background: #e8f1f8;
+  border-radius: 5px;
+}
+
+#forecast-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.forecast-day {
+  flex: 1;
+  min-width: 120px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
